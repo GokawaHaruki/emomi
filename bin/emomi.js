@@ -15,6 +15,7 @@ const cli = require('meow')(`
   -d, --debug       Show debug info.
 
 Examples
+  $ emomi happy cat # View all happy cats.
   $ emomi happy -n  # Copy the first search result of 'happy'.
   $ emomi -e        # Copy a random emoji.
   $ emomi me -d     # Sometimes emojis cause blank output. Go debug mode.
@@ -32,7 +33,7 @@ Examples
 
 const emomi = require('../index');
 
-const displayOne = (emoji) => ':' + emoji.name + ': ' + emoji.char;
+const displayOne = (emoji) => emoji.char + ' :' + emoji.name + ':';
 
 const stringWidth = require('string-width');
 

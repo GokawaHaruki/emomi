@@ -27,7 +27,16 @@ Yet another emoji helper.
   -d, --debug       Show debug info.
 
 Examples
+  $ emomi happy cat # View all happy cats.
   $ emomi happy -n  # Copy the first search result of 'happy'.
   $ emomi -e        # Copy a random emoji.
   $ emomi me -d     # Sometimes emojis cause blank output. Go debug mode.
 ```
+
+## Known Issues
+
+Some special emojis cause output problems, like blank output or ugly typesetting.
+
+## Contribute
+
+Feel free to open issues or send PRs.
