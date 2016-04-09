@@ -37,6 +37,9 @@
   "xo": {
     "esnext": false,
     "semicolon": true,
-    "space": 2
+    "space": 2,
+    "rules": {
+      "no-nested-ternary": 0
+    }
   }
 }
