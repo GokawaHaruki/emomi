@@ -1,0 +1,40 @@
+{
+  "name": "emomi",
+  "version": "0.0.1",
+  "description": "Yet another emoji helper.",
+  "main": "index.js",
+  "bin": {
+    "emomi": "bin/emomi.js"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InubashiriMomizi/emomi.git"
+  },
+  "keywords": [
+    "emoji",
+    "cli"
+  ],
+  "author": "arrowrowe <arrowrowe@gmail.com> (https://github.com/arrowrowe)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/InubashiriMomizi/emomi/issues"
+  },
+  "homepage": "https://github.com/InubashiriMomizi/emomi#readme",
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "emojilib": "^2.0.2",
+    "meow": "^3.7.0",
+    "vorpal": "^1.10.10"
+  },
+  "devDependencies": {
+    "xo": "^0.13.0"
+  },
+  "xo": {
+    "esnext": false,
+    "semicolon": true,
+    "space": 2
+  }
+}
