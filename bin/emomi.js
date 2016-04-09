@@ -8,7 +8,7 @@ const cli = require('meow')(`
 
   Options
   -n, --copy-name   Copy a most likely emoji's name, if found.
-  -e, --copy-emoji  Copy a most likely emoji, if found.
+  -e, --copy-emoji  Copy a most likely emoji, if found. This overrides \`-n\`.
   -l, --repl        Start a REPL session.
   -h, --help        Display this help.
   -v, --version     Display the current version.
